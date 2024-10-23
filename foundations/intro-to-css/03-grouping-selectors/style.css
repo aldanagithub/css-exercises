@@ -1,0 +1,17 @@
+.first {
+    background-color: #000000;
+    color: hsl(0, 100% , 100%);   
+}
+
+.second {
+    background-color: hsl(60, 100%, 50%)
+}
+
+.first,
+.second {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* There is no need to use ID selectors even if we get the same result.
+In this case we use class selectors by giving these two elements a unique class name with their own unique styles and then group them together by adding rules for styles that both elements share, this is called grouping selectors*/
