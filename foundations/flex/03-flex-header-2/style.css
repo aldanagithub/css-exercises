@@ -46,3 +46,55 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+/* my solution
+I solved the exercise based on what I read and understood. Apparently the result is the same but there is an easy way to reach the same result */
+
+/* .header {
+display: flex;
+padding: 8px 16px;
+}
+
+.left-elements {
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+
+.right-elements {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  gap: 16px;
+  align-items: center;
+  
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  padding: 0px;
+
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left-elements,.right-elements {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
